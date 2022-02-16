@@ -1,1 +1,45 @@
 // TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.header {
+  padding: 5rem 0 4rem;
+}
+
+.post {
+  max-width: 720px;
+
+  strong {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.25rem;
+    color: #d7d7d7;
+    margin: 0.5rem 0 1.5rem;
+  }
+}
+
+.postInfo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.postInfoText {
+  color: #bbbbbb;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.button {
+  border: none;
+  background: none;
+  color: #ff57b2;
+  margin-top: 4rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
