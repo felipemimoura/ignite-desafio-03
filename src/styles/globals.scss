@@ -3,5 +3,31 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --white: #f8f8f8;
+  --gray-900: #1a1d23;
+}
 
-// TODO
+body {
+  background: var(--gray-900);
+  color: var(--white);
+}
+
+body,
+input,
+textarea,
+button,
+select {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
