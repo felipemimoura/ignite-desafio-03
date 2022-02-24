@@ -1,1 +1,49 @@
 // TODO
+.banner {
+  width: 100%;
+}
+
+.postContainer {
+  width: 720px;
+  margin: 5rem auto;
+
+  h1 {
+    color: #f8f8f8;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  ul {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  li {
+    color: #bbbbbb;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    list-style: none;
+    text-transform: lowercase;
+  }
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h2 {
+    color: #f8f8f8;
+    font-size: 2rem;
+  }
+}
+
+.postText {
+  color: #b8b8b8;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  gap: 1.25rem;
+}

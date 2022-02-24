@@ -51,7 +51,7 @@ export default function Home({ postsPagination }: HomeProps) {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={commonStyles.container}>
       <header className={styles.header}>
         <img src="/images/Logo.svg" alt="logo" />
       </header>
