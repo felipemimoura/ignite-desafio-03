@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.headerContainer}>
       <Link href="/">
         <a href="">
-          <img src="images/Logo.svg" alt="logo" />
+          <img src="/images/Logo.svg" alt="logo" />
         </a>
       </Link>
     </header>
